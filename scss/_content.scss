@@ -1,0 +1,133 @@
+body{
+    font-family: $fontFamily;
+    background-color: #000000;
+    color:#ffffff
+}
+
+section{
+    background-image: url(../img/imagenescabecera/fotoprincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: $h-75;
+    h1{
+        font-family: $fontFamily;
+        color: #ffffff;
+        font-size: 5rem;
+        letter-spacing: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    section{
+        background-image: url(../img/imagenescabecera/fotoprincipal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: $h-50;
+        h1{
+            font-family: $fontFamily;
+            color: #ffffff;
+            font-size: $fontSizeBig;
+            letter-spacing: 20px;
+        }
+    }
+}
+.container{
+    background-color: #fd7e14;
+    border-radius: 10px;
+}
+.btn{
+    color: #fd7e14;
+    background-color: #ffffff;
+    border-color: none;
+}
+legend{
+    font-size: $fontSizeMedium;
+}
+video{
+    width: $w-100;
+}
+.mt-3{
+    width: $w-100;
+}
+.main__Pic{
+    width: $w-100;
+}
+.text__center{
+    font-size: $fontSizeMedium;
+}    
+.pic{
+    width: 100%;
+}
+p{
+    font-size: 1.5em;
+}
+@media screen and (max-width: 768px){
+    p{
+        font-size: $fontSizeSmall;
+    }
+}
+.card{
+    background-color: #000000;
+}    
+.novedades{
+    background-image: url(../img/imagenescabecera/novedades.jpg);
+}
+.jugadores{
+    background-image: url(../img/imagenescabecera/jugadores.jpg);
+}
+.evento{
+    background-image: url(../img/imagenescabecera/evento.jpg);
+}
+.federaciones{
+    background-image: url(../img/imagenescabecera/federaciones.jpg);
+}
+.secondBack{
+    background-color: black;
+}
+    .paises{
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Bebas Neue', cursive;
+        padding: 5px;
+    }
+        .contentThird{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            padding: 5px;
+            gap: 5px;
+        }    
+            .flag{
+                width: 100%;
+                height: 50vh;
+                object-fit: cover;
+                border-radius: 5px;
+                opacity: 0.3;
+            }
+            .flag:hover{
+                color: black;
+                opacity: 0.9;
+                
+            }
+            @media screen and (max-width:768px){
+                .contentThird{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(5);
+                    padding: 5px;
+                    gap: 5px;
+                }    
+                .flag{
+                    width: 100%;
+                    height: 10vh;
+                    object-fit: cover;
+                    border-radius: 10px;
+                    opacity: 0.3;
+                }
+                .flag:hover{
+                    color: black;
+                    opacity: 0.9;
+                    
+                }
+                
+            }
+
+

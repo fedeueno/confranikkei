@@ -1,0 +1,21 @@
+$navColor: #000000;
+
+nav{
+    background-color: $navColor;
+    img{
+        width: 50px;
+    }
+}
+.navbar-nav{
+    font-family: $fontFamily;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255); }
+    .navbar-light .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+        color: orange; }
+    .navbar-light .navbar-nav .nav-link.disabled {
+        color: rgb(255, 255, 255); }
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255); }
+
