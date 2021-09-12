@@ -1,0 +1,9 @@
+User-Agent: *
+
+Disallow: /wireframe-presupuesto
+
+User-Agent: Googlebot - Image
+Disallow: /img
+
+User-Agent: Googlebot - Image
+Disallow: /fuentes
