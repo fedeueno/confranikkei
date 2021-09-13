@@ -7668,6 +7668,12 @@ footer {
       color: #ffffff;
       text-decoration: none; }
 
+@media screen and (max-width: 576px) {
+  .footer__nav--row {
+    display: block;
+    text-align: center;
+    padding-left: 0; } }
+
 .footer__socials {
   display: flex;
   align-items: center;
